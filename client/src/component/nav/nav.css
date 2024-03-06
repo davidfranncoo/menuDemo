@@ -21,7 +21,7 @@ height:60px;
 }
 
 .img_logo {
-    width: 40px;
+    width: 70px;
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.574));
 
 }
@@ -55,7 +55,7 @@ a img,
 
 
 }
-
+ 
 .whatsapp3d {
     position: fixed;
     bottom: 5px;
@@ -126,7 +126,7 @@ a img,
         width: 220px;
     }
     .img_logo {
-        width: 100px;
+        width: 160px;
 
 
     }
@@ -149,7 +149,7 @@ a img,
         width: 220px;
     }
     .img_logo {
-        width: 100px;
+        width: 130px;
 
 
     }
@@ -177,7 +177,7 @@ a img,
     }
 
     .img_logo {
-        width: 70px;
+        width: 100px; 
 
 
     }

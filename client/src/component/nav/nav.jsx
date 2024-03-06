@@ -1,6 +1,6 @@
 import React from "react";
 import elipse from "../../img/Elipse.png";
-import logo from "../../img/wynwoodLogo.png";
+import logo from "../../img/logo.png";
 import facebook from "../../icon/facebook.png";
 import instagram from "../../icon/instagram.png";
 import ubicacion from "../../icon/ubicacion.png";
@@ -26,24 +26,24 @@ export default function Nav() {
     <>
       <header className="header_wynwood">
         <img className="img_elipse" alt="elipse" src={elipse}></img>
-        <h2 className="nav_paseo">PASEOWYNWOOD</h2>
+        <h2 className="nav_paseo">RESTOBAR </h2>
         <img className="img_logo" src={logo} alt="imagen logo" />
         <div className="box_icon">
           <a
             className="icono_img"
-            href="https://www.instagram.com/paseowynwoodctes/"
+            href="https://www.instagram.com/"
           >
             <img src={instagram} alt="Instagram" />
-          </a>
+          </a> 
           <a
             className="icono_img"
-            href="https://maps.app.goo.gl/JGSkYoecZ3sP54L26"
+            href="https://www.instagram.com/"
           >
             <img src={ubicacion} alt="ubicacin" />
           </a>
           <a
             className="icono_img"
-            href="https://web.facebook.com/paseowynwoodctes/"
+            href="https://www.instagram.com/"
           >
             <img src={facebook} alt="facebook" />
           </a>
@@ -53,7 +53,7 @@ export default function Nav() {
         </div>
         <a
           className="whatsapp3d"
-          href="https://web.facebook.com/paseowynwoodctes/"
+          href="https://www.instagram.com/"
         >
           <img src={whatsapp} alt="facebook" />
         </a>
