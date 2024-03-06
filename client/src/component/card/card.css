@@ -1,0 +1,158 @@
+.precio{
+    display: flex;
+}
+.card{
+    display: flex;
+    background-color: #ffffff6b;
+    border-radius: 10px;
+    padding: 2px;
+    margin:7px;
+  }
+  
+  .expand_img {
+    background-color: rgba(0, 0, 0, 0.634);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   z-index: 1;
+   transition: opacity 1s ease-in-out; 
+    
+   
+    
+    img {
+      border-radius: 10%;
+      width: 50%;
+      transition: width 1s ease-in-out;
+    
+    }
+    
+  
+  }
+      h1{
+          padding-left: 6px;
+          font-size: 9px;
+      }
+      
+.div_product1{
+    display: flex;
+    flex-direction: column;
+        width: 80%;
+       
+    }
+    .div_product2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .image_click{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 8px;
+        font-weight: 300;
+        padding-left: 10px;
+        width: 85%;
+
+    }
+    @media  (min-width: 1600px) {
+        h2{
+                
+            font-size: 30px;
+        }
+        h1 {
+          
+            font-size: 35px;
+        }
+        .img_comida {
+            width: 170px;
+            border-radius: 100%;
+        }
+        .category_subtitulo {
+            font-size: 30px;
+        }
+        .card {
+            display: flex;
+            
+            border-radius: 20px;
+            padding: 30px;
+            margin: 40px;
+        }
+    }
+    @media (min-width: 1201px) and (max-width: 1599px) {
+        h2{   
+            font-size: 25px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        .img_comida {
+            width: 130px;
+            border-radius: 100%;
+        }
+        .category_subtitulo {
+            font-size: 25px;
+        }
+        .card {
+            display: flex;
+            
+            border-radius: 20px;
+            padding: 10px;
+            margin: 20px;
+        }
+    }
+    @media (min-width: 801px) and (max-width: 1200px) {
+            h2{ 
+                font-size: 20px;
+            }
+            h1 {
+                font-size: 25px;
+            }
+            .img_comida {
+                width: 100px;
+                border-radius: 100%;
+            }
+            .category_subtitulo {
+                font-size: 25px;
+            }
+            .card {
+                display: flex;
+                
+                border-radius: 20px;
+                padding: 10px;
+                margin: 20px;
+            }
+        }
+    @media (min-width: 400px) and (max-width: 800px){
+        h2{
+            
+            font-size: 10px;
+        }
+        h1 {
+          
+            font-size: 15px;
+        }
+        .img_comida {
+            width: 60px;
+            border-radius: 100%;
+        }
+        .category_subtitulo {
+            font-size: 18px;
+        }
+        .card {
+            display: flex;
+            background-color: #ffffff6b;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 10px;
+        }
+    }

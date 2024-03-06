@@ -1,0 +1,110 @@
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.img_search{
+    width: 10px;
+}
+.box_busqueda{
+    width: 80%;
+}
+.form_search{
+    padding-bottom: 10px;
+    width: 80%;
+   display: flex;
+   justify-content: center;
+   input{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 0.727);
+    padding: 10px;
+    border: none;
+    border-radius:5px ;
+    outline: none;
+    transition: background-color 0.3s, border 0.3s;
+   }
+   input:focus {
+    background-color: #ffffff;
+    border: 2px solid #81c5c4;
+  }
+  
+  
+}
+.eliminar_buttom{
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+        padding: 5px;
+        border-radius: 10px 10px 0 10px;
+        background-color: #ffffff7a;
+}
+.eliminar_buttom:active{
+    transform: scale(1.2);
+    background-color: #81c5c4;
+    transition: transform 0.5s;
+
+}
+.eliminar_img{
+    width: 20px;
+   
+}
+@media  (min-width: 1600px) {
+    .form_search{
+        padding-bottom: 30px;
+       input{
+        font-size: 40px;
+        width: 40%;
+        padding: 30px;
+       }
+       input::placeholder {
+       font-size: 30px;
+      }  
+    }
+}
+@media (min-width: 1201px) and (max-width: 1599px) {
+    
+    .form_search{
+        padding-bottom: 30px;
+       input{
+        font-size: 35px;
+        width: 60%;
+        padding: 20px;
+       }
+       input::placeholder {
+       font-size: 25px;
+      }  
+    }
+}
+@media (min-width: 801px) and (max-width: 1200px) {
+   
+
+        .form_search{
+            padding-bottom: 20px;
+           input{
+            font-size: 25px;
+            width: 80%;
+            padding: 20px;
+           }
+           input::placeholder {
+           font-size: 25px;
+          }  
+        }
+    }
+@media (min-width: 400px) and (max-width: 800px){
+
+    .form_search{
+        padding-bottom: 10px;
+       input{
+        font-size: 15px;
+        width: 80%;
+        background-color: rgba(255, 255, 255, 0.727);
+        padding: 15px;
+       }
+       input::placeholder {
+       font-size: 15px;
+      }  
+    }
+}
