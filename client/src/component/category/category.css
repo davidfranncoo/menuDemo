@@ -14,7 +14,7 @@
     width: 100%;
     text-align: left;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     border: none;
 }
